@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 5"
+date: 2026-07-20
+weight: 5
 pre: " <b> 1.5. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 5:
+**Thời gian:** 15/05/2026 - 21/05/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 5
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Hiểu thành phần VPC và cách hoạch định CIDR.
+- Phân tích luồng public/private resource kết nối Internet.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 5:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 15/05 | Học Module 03 và xác định vai trò của VPC, subnet, route table, Security Group. | 15/05/2026 | 15/05/2026 | Module 03 / [Kiến thức cơ bản Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnet-basics.html) |
+| Sat - 16/05 | Ôn cách áp dụng mô hình trách nhiệm chung vào cấu hình VPC. | 16/05/2026 | 16/05/2026 | [Mô hình trách nhiệm chung AWS](https://aws.amazon.com/compliance/shared-responsibility-model/) |
+| Sun - 17/05 | Ôn cách tính IPv4 CIDR và lập kế hoạch public, app, DB subnet không trùng nhau. | 17/05/2026 | 17/05/2026 | [Địa chỉ IP cho VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html) |
+| Mon - 18/05 | So sánh Security Group và Network ACL, xác định vị trí áp dụng. | 18/05/2026 | 18/05/2026 | [Bảo mật hạ tầng VPC](https://docs.aws.amazon.com/vpc/latest/userguide/infrastructure-security.html) |
+| Tue - 19/05 | Phân tích luồng Internet Gateway và NAT Gateway cho public/private subnet. | 19/05/2026 | 19/05/2026 | [Internet Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) / [NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/nat-gateway-basics.html) |
+| Wed - 20/05 | Kiểm tra dải CIDR dự kiến và xác nhận subnet không trùng nhau. | 20/05/2026 | 20/05/2026 | Bảng tính CIDR / [Địa chỉ IP cho VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html) |
+| Thu - 21/05 | Vẽ nháp luồng VPC và liệt kê ranh giới bảo mật cho EC2/RDS. | 21/05/2026 | 21/05/2026 | Bản vẽ kiến trúc / [Security Group](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Lập được kế hoạch CIDR không trùng nhau cho public subnet, private application subnet và private database subnet.
+- Phân biệt vai trò của Security Group, Network ACL, Internet Gateway và NAT Gateway trong luồng public/private.
+- Hoàn thành bản nháp luồng mạng và xác định ranh giới truy cập giữa ALB, EC2 backend và RDS.

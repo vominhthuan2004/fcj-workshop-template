@@ -1,126 +1,105 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "FCAJ Community Day – May 2026"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+## Event information
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+| Item | Details |
+| --- | --- |
+| Event | FCAJ Community Day |
+| Date | 23 May 2026 |
+| Format | Knowledge-sharing event about Cloud, AI, and career development |
+| Role | Attendee |
+| Main topics | Cloud, AI, Prompt Engineering, Amazon CloudFront, hackathons, and engineering responsibility in the GenAI era |
+| Evidence | Event video and attendance photo |
 
-### Event Objectives
+## Attendance photo
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+<figure style="margin: 1rem auto; max-width: 820px; text-align: center;">
+  <img src="/images/4-EventParticipated/fcaj-community-day-may-2026.jpg"
+       alt="Group photo at FCAJ Community Day on 23 May 2026"
+       style="display: block; width: 100%; height: auto; border-radius: 6px;">
+  <figcaption style="margin-top: 0.5rem; font-style: italic;">
+    Figure 1: Group photo at FCAJ Community Day on 23 May 2026.
+  </figcaption>
+</figure>
 
-### Speakers
+## Overview
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+FCAJ Community Day on 23 May 2026 brought together the technology community around Cloud, AI, system architecture, and career development.
 
-### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+## The technology paradox and essential engineering skills
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+In the opening session, **Nguyen Gia Hung**, a Solutions Architect at AWS Vietnam and Founder of First Cloud Journey, discussed a paradox that often appears as technology advances.
 
-#### Transitioning to modern application architecture – Microservices
+When the cost of using a technology falls, demand may increase rather than decrease. LED lighting, for example, reduces energy consumption per device but encourages lighting to be used more widely. Similarly, AI reduces software development time and cost, creating greater demand for digital products.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+The message I recorded was that engineers still need strong foundations. Academic knowledge matters, but learners must also understand real business problems, identify the right use cases, and build working demonstrations.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+## AI and Prompt Engineering
 
-#### Domain-Driven Design (DDD)
+Another session focused on interacting effectively with AI by providing clear context. Instead of asking a general question, users should define:
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+- The objective.
+- The role the AI should perform.
+- Relevant data and context.
+- Constraints.
+- The desired output format.
 
-#### Event-Driven Architecture
+Providing sufficient information can make the result more accurate and relevant. The session showed me that Prompt Engineering is not simply writing a longer question; it is the structured organization of requirements, input data, and output criteria.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+## Amazon CloudFront, security, and cost control
 
-#### Compute Evolution
+In the Amazon CloudFront session, **Nguyen Han Thinh**, a DevOps Engineer, introduced **flat-rate pricing** as a way for businesses to forecast cost more easily and reduce the risk of unexpected bill increases. He also discussed security features including **mTLS** and **VPC Origin**.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+## Lessons from a 36-hour hackathon
 
-#### Amazon Q Developer
+A group of speakers shared their experience in a 36-hour hackathon, including idea formation, AI token limits, and prioritizing core product functions as a **Minimum Viable Product (MVP)**.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+They also discussed comparing the performance of models available through Amazon Bedrock with models running locally.
 
-### Key Takeaways
+## Engineering responsibility in the GenAI era
 
-#### Design Mindset
+The final discussion considered a business credit-assessment system and the responsibility of engineers when AI makes an incorrect decision.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+Two questions were emphasized:
 
-#### Technical Architecture
+> Who uses the system?
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+> Why do they use it?
 
-#### Modernization Strategy
+These questions help ensure that a solution is built for the actual need.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+## My personal takeaways
 
-### Applying to Work
+Based on the event, I personally concluded that:
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- Strong technical foundations remain important in the AI era.
+- I should begin projects with real problems and user needs.
+- I need to provide clear context when using AI.
+- When time is limited, I should prioritize core functions and an MVP.
+- In my view, AI-assisted output should be checked before it is applied.
+- I believe engineers should consider how their systems affect users.
 
-### Event Experience
+These are my reflections after the event, not direct quotations or claims attributed to the speakers.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+## My connection to the Team Task Management project
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+I can relate the CloudFront session to my project architecture: the frontend is stored on Amazon S3 and distributed through CloudFront, while API requests are routed to Amazon API Gateway. This describes my implementation and is not presented as a technical claim from the event summary.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+The hackathon experience helped me prioritize the project's core functions:
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+- Login.
+- Task creation.
+- Task assignment.
+- Status updates.
+- Deadline reminder emails.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+Advanced features should be added only after the main workflow is stable.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+Prompt Engineering also helps me structure requests when using AI for debugging, architecture review, and documentation. As a personal practice, I verify technical guidance against official AWS documentation and practical test results.

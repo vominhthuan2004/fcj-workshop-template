@@ -1,57 +1,30 @@
 ---
 title: "Week 11 Worklog"
-date: 2024-01-01
-weight: 2
-chapter: false
+date: 2026-07-20
+weight: 11
 pre: " <b> 1.11. </b> "
+chapter: false
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 11 Objectives:
+**Period:** 26/06/2026 - 02/07/2026
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Week 11 objectives
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Develop the Manager and Member frontend flows.
+- Connect the frontend to mock/local APIs and resolve interface issues.
 
+## Tasks carried out
 
-### Week 11 Achievements:
+| Day | Task | Start date | Completion date | Reference material |
+|---|---|---|---|---|
+| Fri - 26/06 | Start the frontend project and build the common layout and authentication screens. | 26/06/2026 | 26/06/2026 | Frontend code / [S3 website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html) |
+| Sun - 28/06 | Implement the Manager task list, create-task, assignment, and status-filter interfaces. | 28/06/2026 | 28/06/2026 | Manager UI / [HTTP API routes](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-routes.html) |
+| Tue - 30/06 | Implement the Member assigned-task view and status-update interaction. | 30/06/2026 | 30/06/2026 | Member UI / [HTTP API routes](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-routes.html) |
+| Thu - 02/07 | Connect the frontend to mock/local APIs and fix validation and rendering issues. | 02/07/2026 | 02/07/2026 | Local tests / [CORS for HTTP APIs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-cors.html) |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Achievements
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Completed the common layout, login screen, and initial Team Task Management frontend structure.
+- Built the Manager interfaces for creating, assigning, and filtering tasks and the Member interfaces for viewing and updating assigned work.
+- Connected the frontend to mock and local APIs, fixed validation and rendering issues, and prepared CORS configuration for AWS integration.

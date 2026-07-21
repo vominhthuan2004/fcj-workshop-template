@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 4"
+date: 2026-07-20
+weight: 4
 pre: " <b> 1.4. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 4:
+**Thời gian:** 08/05/2026 - 14/05/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 4
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Tổ chức quyền IAM phục vụ thực hành quản trị.
+- Tạo AWS Budget và ôn tập Module 01.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 4:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 08/05 | Tạo IAM Group và administrator user theo yêu cầu của bài lab. | 08/05/2026 | 08/05/2026 | [Tạo IAM user group](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups_create.html) |
+| Sat - 09/05 | Test đăng nhập administrator user và kiểm tra quyền gán qua Group. | 09/05/2026 | 09/05/2026 | [Quản lý quyền IAM user group](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups_manage_attach-policy.html) |
+| Sun - 10/05 | Tạo AWS Budget từ template và cấu hình mức ngân sách dự kiến. | 10/05/2026 | 10/05/2026 | [Tạo AWS Budget](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-create.html) |
+| Mon - 11/05 | Rà soát Budget và kiểm tra cách theo dõi mức sử dụng AWS Credit. | 11/05/2026 | 11/05/2026 | [Quản lý AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.html) |
+| Tue - 12/05 | Ôn Module 01, đối chiếu với lab đã làm và tổng hợp bài học bảo mật chính. | 12/05/2026 | 12/05/2026 | Module 01 / [Best practices bảo mật IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) |
+| Wed - 13/05 | Tổng hợp ảnh IAM/Budget và che thông tin tài khoản trước khi dùng làm minh chứng báo cáo. | 13/05/2026 | 13/05/2026 | Thư mục minh chứng / [Định danh tài khoản AWS](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-identifiers.html) |
+| Thu - 14/05 | Rà soát tài nguyên IAM tạm và xóa các mục không còn cần thiết. | 14/05/2026 | 14/05/2026 | [Rà soát tài nguyên IAM không dùng](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#remove-credentials) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Tạo IAM Group và administrator user theo yêu cầu lab, đồng thời kiểm tra quyền được kế thừa thông qua Group.
+- Tạo AWS Budget và sử dụng thông tin ngân sách để theo dõi mức tiêu thụ AWS Credit.
+- Tổng hợp minh chứng IAM/Budget, che thông tin tài khoản và xóa các tài nguyên IAM tạm không còn cần thiết.

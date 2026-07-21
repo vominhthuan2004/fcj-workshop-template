@@ -1,58 +1,33 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 6"
+date: 2026-07-20
+weight: 6
 pre: " <b> 1.6. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 6:
+**Thời gian:** 22/05/2026 - 28/05/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 6
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Xây dựng VPC và sơ đồ subnet của dự án.
+- Cấu hình định tuyến public/private cho bước triển khai sau.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 22/05 | Tạo VPC dự án và bật các thiết lập DNS cần thiết. | 22/05/2026 | 22/05/2026 | Tài liệu deploy / [Thuộc tính DNS của VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html) |
+| Sat - 23/05 | Tạo public subnet, kiểm tra Availability Zone và dải CIDR. | 23/05/2026 | 23/05/2026 | Ảnh 01-02 / [Subnet trong VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) |
+| Sun - 24/05 | Tạo private app subnet và private DB subnet cho EC2/RDS. | 24/05/2026 | 24/05/2026 | Ảnh 03-05 / [Subnet trong VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) |
+| Mon - 25/05 | Tạo Security Group ban đầu cho ALB, backend và database với rule theo nguồn. | 25/05/2026 | 25/05/2026 | Ảnh 14-15 / [Security Group rule](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html) |
+| Tue - 26/05 | Tạo/gắn Internet Gateway và cấu hình public route table. | 26/05/2026 | 26/05/2026 | Ảnh 06-10 / [Internet Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) |
+| Wed - 27/05 | Gắn tag thống nhất và rà tài nguyên VPC trước khi cấu hình private route. | 27/05/2026 | 27/05/2026 | Danh sách VPC / [Gắn tag tài nguyên AWS](https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging.html) |
+| Thu - 28/05 | Tạo NAT Gateway và private route table, sau đó kiểm tra outbound route. | 28/05/2026 | 28/05/2026 | Ảnh 11-13 / [NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/nat-gateway-basics.html) |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+## Kết quả đạt được
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Xây dựng VPC dự án với DNS, public subnet, private application subnet và private database subnet theo kế hoạch CIDR.
+- Cấu hình Internet Gateway cùng public route table và NAT Gateway cùng private route table cho đúng luồng mạng.
+- Tạo Security Group ban đầu cho Internal ALB, EC2 và RDS, đồng thời áp dụng tag thống nhất cho tài nguyên VPC.

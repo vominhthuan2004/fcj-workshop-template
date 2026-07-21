@@ -1,57 +1,33 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
+date: 2026-07-20
+weight: 9
 pre: " <b> 1.9. </b> "
+chapter: false
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 9 Objectives:
+**Period:** 12/06/2026 - 18/06/2026
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Week 9 objectives
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Define the Manager/Member business flow.
+- Create and refine the AWS architecture with community feedback.
 
+## Tasks carried out
 
-### Week 9 Achievements:
+| Day | Task | Start date | Completion date | Reference material |
+|---|---|---|---|---|
+| Fri - 12/06 | Analyze task-management problems, user roles, task states, and deadline-reminder requirements. | 12/06/2026 | 12/06/2026 | Requirement notes / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Sat - 13/06 | Draw the first architecture covering CloudFront, S3, API Gateway, VPC Link, ALB, EC2, RDS, Lambda, and SES. | 13/06/2026 | 13/06/2026 | Architecture diagram / [AWS Architecture Center](https://aws.amazon.com/architecture/) |
+| Sun - 14/06 | List failure scenarios including unhealthy targets, IAM errors, and SES Sandbox limits. | 14/06/2026 | 14/06/2026 | [ALB health checks](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html) / [SES Sandbox](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) |
+| Mon - 15/06 | Request architecture feedback from members of the AWS FCAJ community. | 15/06/2026 | 15/06/2026 | Review notes / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Tue - 16/06 | Review service responsibilities and trace user and automated request flows. | 16/06/2026 | 16/06/2026 | Flow review / [AWS Architecture Center](https://aws.amazon.com/architecture/) |
+| Wed - 17/06 | Revise subnet placement, security-group relationships, private API access, and automation flow. | 17/06/2026 | 17/06/2026 | [API Gateway private integrations](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-private.html) / [Security groups](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
+| Thu - 18/06 | Finalize the reviewed architecture for implementation planning. | 18/06/2026 | 18/06/2026 | Final diagram / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Achievements
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Defined the Team Task Management Manager/Member roles, task statuses, and automated deadline-reminder requirements.
+- Completed an architecture diagram covering CloudFront, S3, API Gateway, VPC Link, the Internal ALB, EC2, RDS, Lambda, EventBridge, and SES.
+- Incorporated feedback from AWS FCAJ community mentors and revised subnet placement, security groups, private API access, and the two main request flows.

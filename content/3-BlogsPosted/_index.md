@@ -1,22 +1,38 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
+date: 2026-07-20
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+During my internship and the development of an AWS project, I researched, summarized, and shared three articles with the **AWS Study Group** community. They cover AWS cost optimization, Big Data architecture, and system development with AI assistance.
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+Writing these articles helped me:
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+- Understand AWS services and architecture more deeply.
+- Practice analyzing technical problems.
+- Present technical knowledge more clearly.
+- Connect research with my personal project.
+- Share my learning experience with the community.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+## Article overview
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+| No. | Article | Main topic | Type |
+| --- | --- | --- | --- |
+| 1 | [From Multi-AZ to Single-AZ – Lessons from optimizing AWS cost](3.1-Blog1/) | Cost optimization and architecture selection | Experience from a personal project |
+| 2 | [Understanding Apache Celeborn on Amazon EMR](3.2-Blog2/) | Big Data, Apache Spark, and Remote Shuffle Service | AWS Big Data Blog research |
+| 3 | [Building a multi-account patch dashboard with Kiro Specs](3.3-Blog3/) | DevOps, Serverless, Patch Management, and AI-assisted development | AWS Cloud Operations Blog research |
+
+## Outcomes
+
+After completing the three articles, I:
+
+- Better understood AWS cost optimization and the difference between demo and production architecture.
+- Learned how Spark shuffle works and how Apache Celeborn separates compute from shuffle storage.
+- Learned Kiro's spec-driven workflow and the purpose of steering files.
+- Improved my awareness of security for internal DevOps systems.
+- Improved my ability to read, summarize, and present AWS technical content.
+- Connected research lessons with the Team Task Management project.
+
+The three articles represent practical project experience, Big Data architecture research, and Cloud Operations research combined with AI-assisted development.

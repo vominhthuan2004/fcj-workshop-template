@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 7"
+date: 2026-07-20
+weight: 7
 pre: " <b> 1.7. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 7:
+**Thời gian:** 29/05/2026 - 04/06/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 7
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Hiểu EC2 storage và metadata.
+- Chuẩn bị quản trị an toàn EC2 backend private.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 7:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 29/05 | So sánh EC2 instance family, hình thức mua và lựa chọn t3.micro cho demo. | 29/05/2026 | 29/05/2026 | [Các loại Amazon EC2 instance](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-types.html) |
+| Sat - 30/05 | Ôn EC2 Security Group, IAM Role và kiểm soát truy cập mạng. | 30/05/2026 | 30/05/2026 | [IAM Role cho Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html) |
+| Sun - 31/05 | Tìm hiểu instance store, instance metadata và ảnh hưởng bảo mật. | 31/05/2026 | 31/05/2026 | [EC2 instance metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) |
+| Mon - 01/06 | Gắn EBS volume tạm vào instance lab và quan sát vòng đời. | 01/06/2026 | 01/06/2026 | Bài lab / [Gắn EBS volume](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-attaching-volume.html) |
+| Tue - 02/06 | Tìm hiểu loại EBS volume, cách gắn, snapshot và vòng đời. | 02/06/2026 | 02/06/2026 | [Amazon EBS volume](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes.html) / [EBS snapshot](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html) |
+| Wed - 03/06 | So sánh Session Manager với SSH khi quản trị instance private. | 03/06/2026 | 03/06/2026 | [AWS Systems Manager Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html) |
+| Thu - 04/06 | Tạo IAM Role cho EC2 Session Manager và rà soát cách truy cập instance private. | 04/06/2026 | 04/06/2026 | Ảnh 16-18 / [Quyền instance cho Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/setup-instance-permissions.html) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Lựa chọn EC2 `t3.micro` phù hợp cho môi trường demo và hiểu ảnh hưởng của instance metadata đối với bảo mật.
+- Thực hành gắn EBS volume, quan sát vòng đời và tìm hiểu snapshot cùng các loại volume chính.
+- Tạo IAM Role cho EC2 và xác định Session Manager là phương án quản trị instance private an toàn hơn việc mở SSH công khai.

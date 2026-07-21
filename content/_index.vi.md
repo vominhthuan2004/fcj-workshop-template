@@ -1,40 +1,41 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-07-20
 weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+## Thông tin sinh viên
 
-&emsp; **Số điện thoại:** 0989888999
+| Nội dung | Thông tin |
+|---|---|
+| Họ và tên | Võ Minh Thuận |
+| MSSV | 2280603164 |
+| Số điện thoại | 0961473006 |
+| Email | minhthuan2018tv@gmail.com |
+| Trường | HUTECH |
+| Ngành | Công nghệ thông tin |
+| Chuyên ngành | Công nghệ phần mềm |
+| Lớp | 22DTHH2 |
+| Đơn vị thực tập | Công ty TNHH Amazon Web Services Việt Nam |
+| Vị trí | Workforce Bootcamp - First Cloud AI Journey |
+| Thời gian 12 tuần Worklog | 17/04/2026 - 09/07/2026 |
+| Hạn nộp báo cáo | 31/07/2026 |
+| Cán bộ hướng dẫn tại đơn vị | Nguyễn Gia Hưng - hunggia@amazon.com |
+| Giảng viên hướng dẫn tại trường | Nguyễn Văn Danh - NV.danh@hutech.edu.vn |
 
-&emsp; **Email:** Anguyenvan@gmail.com
+![Ảnh cá nhân](/images/avatar.png)
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+## Dự án
 
-&emsp; **Ngành:** Công nghệ thông tin
+**Hệ thống quản lý công việc nhóm và tự động nhắc hạn trên AWS** giúp nhóm nhỏ tạo, giao, theo dõi nhiệm vụ và tự động nhắc thành viên qua email khi sắp đến hạn.
 
-&emsp; **Lớp:** AWS082025
+## Nội dung báo cáo
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
-
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
-
-![Ảnh đại diện của bạn](/images/avatar.png)
-
-
-
-### Nội dung báo cáo
-
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Các bài blogs đã đăng](3-BlogsPosted/)
-4.  [Các events đã tham gia](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+1. [Nhật ký công việc](1-Worklog/)
+2. [Đề xuất dự án](2-Proposal/)
+3. [Các bài blog đã đăng](3-BlogsPosted/)
+4. [Sự kiện đã tham gia](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Tự đánh giá](6-Self-evaluation/)
+7. [Chia sẻ và phản hồi](7-Feedback/)

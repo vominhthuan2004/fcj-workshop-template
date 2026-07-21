@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 2"
+date: 2026-07-20
+weight: 2
 pre: " <b> 1.2. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 2:
+**Thời gian:** 24/04/2026 - 30/04/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 2
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Áp dụng cách truy cập tài khoản an toàn hơn.
+- Hoàn thành 5 bài lab nền tảng được ghi trong phiếu tiến độ.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 2:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 24/04 | Tạo IAM user cho thực hành hằng ngày và phân biệt quyền root với IAM. | 24/04/2026 | 24/04/2026 | [Tạo IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) |
+| Sat - 25/04 | Rà soát password policy, MFA và cách đăng nhập tài khoản IAM. | 25/04/2026 | 25/04/2026 | [AWS MFA trong IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html) |
+| Sun - 26/04 | Thực hành nhóm bài lab nền tảng đầu tiên và ghi nhận các tài nguyên đã tạo. | 26/04/2026 | 26/04/2026 | Bài lab FCAJ / [Giới thiệu IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) |
+| Mon - 27/04 | So sánh quyền dùng trong lab với nguyên tắc least privilege. | 27/04/2026 | 27/04/2026 | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
+| Tue - 28/04 | Rà kế hoạch bảo mật tuần và hoàn thành các bước còn lại của nhóm lab nền tảng. | 28/04/2026 | 28/04/2026 | Kế hoạch tuần / [Best practices bảo mật IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) |
+| Wed - 29/04 | Hoàn thành các lab còn lại, kiểm tra trạng thái và xóa tài nguyên tạm. | 29/04/2026 | 29/04/2026 | Kết quả lab / [Gắn tag tài nguyên AWS](https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging.html) |
+| Thu - 30/04 | Tổng hợp kết quả lab và liệt kê tài nguyên cần xóa sau thực hành. | 30/04/2026 | 30/04/2026 | Checklist lab / [Rà soát tài nguyên IAM không dùng](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#remove-credentials) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Tạo IAM user phục vụ thực hành hằng ngày, rà soát MFA và password policy thay vì sử dụng root account thường xuyên.
+- Hoàn thành nhóm 5 bài lab nền tảng và ghi nhận được các tài nguyên đã tạo trong từng bài.
+- Hiểu rõ hơn nguyên tắc quyền tối thiểu, kiểm tra trạng thái lab và thực hiện cleanup tài nguyên tạm sau thực hành.

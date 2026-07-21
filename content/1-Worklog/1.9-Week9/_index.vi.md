@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
-chapter: false
+title: "Nhật ký Tuần 9"
+date: 2026-07-20
+weight: 9
 pre: " <b> 1.9. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 9:
+**Thời gian:** 12/06/2026 - 18/06/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 9
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Xác định luồng nghiệp vụ Manager/Member.
+- Vẽ và cải thiện kiến trúc AWS qua phản hồi cộng đồng.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 9:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 12/06 | Phân tích bài toán quản lý task, vai trò, trạng thái và yêu cầu nhắc deadline. | 12/06/2026 | 12/06/2026 | Ghi chú yêu cầu / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Sat - 13/06 | Vẽ kiến trúc đầu tiên gồm CloudFront, S3, API Gateway, VPC Link, ALB, EC2, RDS, Lambda và SES. | 13/06/2026 | 13/06/2026 | Sơ đồ kiến trúc / [AWS Architecture Center](https://aws.amazon.com/architecture/) |
+| Sun - 14/06 | Liệt kê lỗi target unhealthy, IAM và giới hạn SES Sandbox. | 14/06/2026 | 14/06/2026 | [ALB health check](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html) / [SES Sandbox](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) |
+| Mon - 15/06 | Xin nhận xét kiến trúc từ các anh chị trong cộng đồng AWS FCAJ. | 15/06/2026 | 15/06/2026 | Ghi chú review / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
+| Tue - 16/06 | Rà soát trách nhiệm dịch vụ và luồng request người dùng/tự động. | 16/06/2026 | 16/06/2026 | Review luồng / [AWS Architecture Center](https://aws.amazon.com/architecture/) |
+| Wed - 17/06 | Chỉnh subnet, quan hệ Security Group, truy cập API private và luồng tự động hóa. | 17/06/2026 | 17/06/2026 | [API Gateway private integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-private.html) / [Security Group](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
+| Thu - 18/06 | Hoàn thiện kiến trúc đã review để lập kế hoạch triển khai. | 18/06/2026 | 18/06/2026 | Sơ đồ hoàn thiện / [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Xác định rõ vai trò Manager/Member, trạng thái công việc và yêu cầu tự động nhắc deadline của Team Task Management.
+- Hoàn thành sơ đồ kiến trúc gồm CloudFront, S3, API Gateway, VPC Link, Internal ALB, EC2, RDS, Lambda, EventBridge và SES.
+- Tiếp nhận góp ý từ các anh chị trong cộng đồng AWS FCAJ và điều chỉnh subnet, Security Group, private API cùng hai luồng request chính.

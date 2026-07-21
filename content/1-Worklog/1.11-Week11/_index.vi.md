@@ -1,59 +1,30 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
-chapter: false
+title: "Nhật ký Tuần 11"
+date: 2026-07-20
+weight: 11
 pre: " <b> 1.11. </b> "
+chapter: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 11:
+**Thời gian:** 26/06/2026 - 02/07/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu Tuần 11
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Phát triển luồng frontend cho Manager và Member.
+- Kết nối frontend với mock/local API và xử lý lỗi giao diện.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 11:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|---|---|---|---|---|
+| Fri - 26/06 | Bắt đầu code frontend, dựng layout chung và các màn hình xác thực. | 26/06/2026 | 26/06/2026 | Mã nguồn / [S3 website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html) |
+| Sun - 28/06 | Phát triển giao diện Manager: danh sách, tạo, giao task và lọc trạng thái. | 28/06/2026 | 28/06/2026 | Giao diện Manager / [HTTP API route](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-routes.html) |
+| Tue - 30/06 | Phát triển màn hình task được giao và thao tác cập nhật trạng thái cho Member. | 30/06/2026 | 30/06/2026 | Giao diện Member / [HTTP API route](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-routes.html) |
+| Thu - 02/07 | Kết nối frontend với mock/local API và sửa lỗi validation/rendering. | 02/07/2026 | 02/07/2026 | Test local / [CORS cho HTTP API](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-cors.html) |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hoàn thành layout chung, màn hình đăng nhập và cấu trúc frontend ban đầu của Team Task Management.
+- Xây dựng giao diện Manager để tạo, giao và lọc task cùng giao diện Member để xem và cập nhật trạng thái công việc.
+- Kết nối frontend với mock/local API, xử lý validation, rendering và chuẩn bị cấu hình CORS cho giai đoạn tích hợp AWS.

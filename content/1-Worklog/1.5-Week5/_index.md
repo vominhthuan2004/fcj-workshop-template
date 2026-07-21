@@ -1,57 +1,33 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
-chapter: false
+date: 2026-07-20
+weight: 5
 pre: " <b> 1.5. </b> "
+chapter: false
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 5 Objectives:
+**Period:** 15/05/2026 - 21/05/2026
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Week 5 objectives
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Understand VPC components and CIDR planning.
+- Trace how public and private resources reach the internet.
 
+## Tasks carried out
 
-### Week 5 Achievements:
+| Day | Task | Start date | Completion date | Reference material |
+|---|---|---|---|---|
+| Fri - 15/05 | Study Module 03 and identify the roles of VPC, subnet, route table, and security group. | 15/05/2026 | 15/05/2026 | Module 03 / [Amazon VPC basics](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnet-basics.html) |
+| Sat - 16/05 | Review how shared responsibility applies to VPC configuration. | 16/05/2026 | 16/05/2026 | [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/) |
+| Sun - 17/05 | Review IPv4 CIDR calculation and plan non-overlapping public, application, and database subnets. | 17/05/2026 | 17/05/2026 | [VPC IP addressing](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html) |
+| Mon - 18/05 | Compare Security Groups and network ACLs and identify where each is applied. | 18/05/2026 | 18/05/2026 | [VPC infrastructure security](https://docs.aws.amazon.com/vpc/latest/userguide/infrastructure-security.html) |
+| Tue - 19/05 | Analyze Internet Gateway and NAT Gateway traffic flows for public and private subnets. | 19/05/2026 | 19/05/2026 | [Internet Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) / [NAT Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/nat-gateway-basics.html) |
+| Wed - 20/05 | Validate the planned CIDR ranges and confirm that subnets do not overlap. | 20/05/2026 | 20/05/2026 | CIDR worksheet / [VPC IP addressing](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html) |
+| Thu - 21/05 | Draw a draft VPC flow and list security boundaries for EC2 and RDS. | 21/05/2026 | 21/05/2026 | Architecture draft / [Security groups](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Achievements
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Prepared a non-overlapping CIDR plan for the public, private application, and private database subnets.
+- Distinguished the roles of security groups, network ACLs, Internet Gateway, and NAT Gateway in public and private traffic flows.
+- Completed a draft network flow and identified access boundaries between the ALB, EC2 backend, and RDS.

@@ -1,126 +1,114 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "FCAJ Community Day – June 2026"
+date: 2026-06-01
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+## Event information
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+| Item | Details |
+| --- | --- |
+| Event | FCAJ Community Day – June 2026 |
+| Time | June 2026 |
+| Location or format | Not provided |
+| Role | Attendee |
+| Main topics | Technology entrepreneurship, Voice AI, AI Agents in DevOps/SRE, and AI in human resources |
+| Evidence | Program video and attendance photo |
 
-### Event Objectives
+## Attendance evidence
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: 1.25rem; margin: 1rem auto;">
+  <figure style="flex: 0 1 260px; margin: 0; text-align: center;">
+    <img src="/images/4-EventParticipated/fcaj-community-day-june-2026.jpg"
+         alt="Check-in ticket for FCAJ Community Day in June 2026"
+         style="display: block; width: auto; max-width: 100%; height: auto; max-height: 360px; margin: 0 auto; border-radius: 6px;">
+    <figcaption style="margin-top: 0.5rem; font-style: italic;">
+      Figure 1: Event check-in ticket.
+    </figcaption>
+  </figure>
+  <figure style="flex: 1 1 480px; max-width: 620px; margin: 0; text-align: center;">
+    <img src="/images/4-EventParticipated/fcaj-community-day-june-2026-session.jpg"
+         alt="Presentation session at FCAJ Community Day in June 2026"
+         style="display: block; width: auto; max-width: 100%; height: auto; max-height: 360px; margin: 0 auto; border-radius: 6px;">
+    <figcaption style="margin-top: 0.5rem; font-style: italic;">
+      Figure 2: A presentation session at the event.
+    </figcaption>
+  </figure>
+</div>
 
-### Speakers
+## Overview
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+FCAJ Community Day – June 2026 shared practical knowledge and experience about Cloud, AI, and the use of technology in business.
 
-### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+## From idea to execution in technology entrepreneurship
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+**Steve Tran** shared entrepreneurship experience and emphasized taking action instead of remaining at the thinking stage.
 
-#### Transitioning to modern application architecture – Microservices
+He also discussed finding **champion customers**, such as F88 and FPT, to work on real business problems.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## Voice AI and deployment challenges in Vietnam
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The Voice AI panel presented how voice models work, architectures ranging from basic to complex, and challenges encountered when deploying them in Vietnam.
 
-#### Domain-Driven Design (DDD)
+The reported challenges included:
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+- Limited data.
+- Regional accent recognition.
+- Gender recognition.
+- Conversational context.
+- Natural user interruption.
 
-#### Event-Driven Architecture
+The speakers also shared practical use cases in banking and sales.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+## AI Agents for incident management
 
-#### Compute Evolution
+**Bao** and **Nguyen** presented the use of AI Agents in system incident management.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+The described process has four steps:
 
-#### Amazon Q Developer
+1. Classify the incident.
+2. Investigate the root cause.
+3. Propose a solution.
+4. Improve the system to reduce the chance of a similar incident.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+The shared case studies showed that AI Agents can help reduce **Mean Time to Resolution (MTTR)**.
 
-### Key Takeaways
+## AI in human resources
 
-#### Design Mindset
+**Truong** and **Minh Anh** presented AI applications in human-resource management.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+The session focused on challenges including:
 
-#### Technical Architecture
+- Manual CV filtering.
+- Difficulty retaining talented employees.
+- Subjective candidate assessment.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+The speakers introduced Amazon Q as a solution that can assist with:
 
-#### Modernization Strategy
+- CV filtering.
+- Candidate assessment.
+- Report generation.
+- No-code internal applications for more efficient and secure recruitment management.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+## My personal takeaways
 
-### Applying to Work
+The sessions led me to conclude that technology selection should be connected to a real problem, deployment feasibility, and the value delivered to a business.
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+I also learned that AI can support processes such as system operations and recruitment, but it should be applied within an appropriate scope. These are my observations after the event, not claims attributed to the speakers.
 
-### Event Experience
+## My connection to the Team Task Management project
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+The execution topic encouraged me to prioritize the project's core business workflow:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- Login.
+- Task creation.
+- Task assignment.
+- Status updates.
+- Deadline reminder emails.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+The AI Agent session suggested a personal idea for future monitoring work. A supporting tool could summarize CloudWatch, Lambda, and systemd logs, classify errors, suggest likely causes, and produce incident reports. This is my extension idea, not a deployed feature or a claim made by the speakers about my project.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+The HR session also suggested possible progress summaries, workload analysis, and task-assignment recommendations. In my own plan, these options would be considered only after the core task-management functions are stable.
