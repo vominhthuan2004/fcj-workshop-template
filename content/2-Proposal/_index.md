@@ -9,6 +9,7 @@ pre: " <b> 2. </b> "
 This proposal defines the planned direction, architecture, delivery phases, risks, cost items, and expected outcomes for the Team Task Management system. Detailed deployment commands remain in the Workshop so this section stays focused on decisions and planning.
 
 - **Project:** Team Task Management and Automated Deadline Reminder System on AWS
+- **Source code:** [GitHub – vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT)
 - **Target users:** small teams with Manager and Member roles
 - **Region:** ap-southeast-1 (Singapore)
 - **Proposal structure:** executive summary, problem, architecture, implementation, timeline, budget, risks, and outcomes

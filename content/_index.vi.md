@@ -30,6 +30,9 @@ chapter: false
 
 **Hệ thống quản lý công việc nhóm và tự động nhắc hạn trên AWS** giúp nhóm nhỏ tạo, giao, theo dõi nhiệm vụ và tự động nhắc thành viên qua email khi sắp đến hạn.
 
+- **Tên dự án:** Team Task Management
+- **GitHub:** [vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT)
+
 ## Nội dung báo cáo
 
 1. [Nhật ký công việc](1-Worklog/)

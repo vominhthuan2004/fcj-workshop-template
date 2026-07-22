@@ -39,11 +39,13 @@ Thư mục `.agents/` là metadata phục vụ công cụ phát triển, không 
 
 ## Tải và cài đặt mã nguồn
 
+Mã nguồn Team Task Management được lưu tại [GitHub – vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT).
+
 Clone repository, chuyển vào thư mục dự án và cài dependency theo cấu hình `package.json`:
 
 ```bash
-git clone <repository-url>
-cd TEAM-TASK-MANAGEMENT
+git clone https://github.com/vominhthuan2004/AWSPROJECT.git
+cd AWSPROJECT
 npm install
 ```
 

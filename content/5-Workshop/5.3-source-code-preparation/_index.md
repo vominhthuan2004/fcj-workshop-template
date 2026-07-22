@@ -39,11 +39,13 @@ The `.agents/` directory contains development-tool metadata and is not part of t
 
 ## Clone and install the source code
 
+The Team Task Management source code is available at [GitHub – vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT).
+
 Clone the repository, enter the project directory, and install dependencies from `package.json`:
 
 ```bash
-git clone <repository-url>
-cd TEAM-TASK-MANAGEMENT
+git clone https://github.com/vominhthuan2004/AWSPROJECT.git
+cd AWSPROJECT
 npm install
 ```
 

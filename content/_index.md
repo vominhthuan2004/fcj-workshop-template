@@ -30,6 +30,9 @@ chapter: false
 
 **Team Task Management and Automated Deadline Reminder System on AWS** is a cloud-based application for small teams to create, assign, track, and automatically remind members about task deadlines.
 
+- **Project name:** Team Task Management
+- **GitHub:** [vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT)
+
 ## Report contents
 
 1. [Worklog](1-Worklog/)

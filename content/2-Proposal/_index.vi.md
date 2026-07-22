@@ -9,6 +9,7 @@ pre: " <b> 2. </b> "
 Đề xuất này xác định định hướng, kiến trúc, giai đoạn triển khai, rủi ro, hạng mục chi phí và kết quả mong đợi của Team Task Management. Các lệnh triển khai chi tiết được đặt trong Workshop để phần này tập trung vào quyết định và kế hoạch.
 
 - **Dự án:** Hệ thống quản lý công việc nhóm và tự động nhắc hạn trên AWS
+- **Mã nguồn:** [GitHub – vominhthuan2004/AWSPROJECT](https://github.com/vominhthuan2004/AWSPROJECT)
 - **Người dùng mục tiêu:** nhóm nhỏ với vai trò Manager và Member
 - **Region:** ap-southeast-1 (Singapore)
 - **Cấu trúc Proposal:** tóm tắt, vấn đề, kiến trúc, triển khai, timeline, ngân sách, rủi ro và kết quả
